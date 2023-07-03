@@ -85,7 +85,7 @@ function placeBet(){
     betInput = document.getElementById("bet"); //grabs the value of bet element
     let bet =parseFloat(betInput.value);//turns the value into a number 
 if (money<=0){
-    alert("You cant place anymore bets.");
+    alert("You cant place anymore bets.");//this is for a test commit
 }
 else{
     if (isNaN(bet) ||bet <=0) {// if nothing is entered or bet is 0 an alert for thr bet amount pops up
